@@ -7,14 +7,14 @@ public class Q4_RotationCount_by_RBS {
         System.out.println(RotationCount(test_arr1, true));
     }
 
-    static int  RotationCount(int[] arr, boolean dup) {
-        if (dup == false){
+    static int  RotationCount(int[] arr, boolean dup) { //
+        if (dup == false){  //false means it's a non duplicate array but NOTE : pivot function for duplicates will run finely for non-duplicate arrays.
             int pivot = findPivot(arr); //doing for non-duplicates now
             if (pivot==-1) return 0;
             else return pivot+1;
         }
         else{
-            int pivot1 = findPivot_duplicate(arr);
+            int pivot1 = findPivot_duplicate(arr); //doing for duplicates
             if (pivot1==-1) return 0;
             else return pivot1+1;
         }
@@ -60,3 +60,7 @@ public class Q4_RotationCount_by_RBS {
         return -1;
     }
 }
+
+//Output :
+// 3
+// 4
