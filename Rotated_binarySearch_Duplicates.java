@@ -59,3 +59,8 @@ public class Rotated_binarySearch_Duplicate {
         return -1;
     }
 }
+
+//Output :
+// 10
+// 6
+// 3
