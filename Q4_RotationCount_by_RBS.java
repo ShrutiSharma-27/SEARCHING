@@ -10,12 +10,12 @@ public class Q4_RotationCount_by_RBS {
     static int  RotationCount(int[] arr, boolean dup) { 
         if (dup == false){  //false means it's a non duplicate array but NOTE : pivot function for duplicates will run finely for non-duplicate arrays.
             int pivot = findPivot(arr); //doing for non-duplicates now
-            //if (pivot==-1) return 0; no need as -1+1 will give 0
-            else return pivot+1;
+            //if (pivot==-1) return 0; else :  no need as -1+1 will give 0
+            return pivot+1;
         }
         else{
             int pivot1 = findPivot_duplicate(arr); //doing for duplicates
-            else return pivot1+1;
+            return pivot1+1;
         }
     }
 //for non-duplicate
