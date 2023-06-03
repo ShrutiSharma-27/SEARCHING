@@ -29,3 +29,8 @@ public class Binary_search_2D_array {
         return new int[] {-1,-1};
     }
 }
+
+//Output : 
+// [2, 3]
+// [-1, -1]
+// [1, 0]
