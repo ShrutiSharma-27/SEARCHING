@@ -1,7 +1,8 @@
 //array (or matrix) is row-wise and column-wise sorted
+//can't apply binary search as it is not strictly sorted. 
 import java.util.Arrays;
 
-public class Binary_search_2D_array {
+public class RowColumnMatrix_search_2D_array {
     public static void main(String[] args) {
         int[][] test_matrix = {
                 {10,20,30,40},
