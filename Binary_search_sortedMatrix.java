@@ -57,3 +57,5 @@ public class Binary_search_sortedMatrix {
 
 //Output :
 //[1, 0]
+
+//Worst case time complexity is O(logn +  logm) where n is no of rows and m is no of columns
