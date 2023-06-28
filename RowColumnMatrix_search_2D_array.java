@@ -35,3 +35,9 @@ public class RowColumnMatrix_search_2D_array {
 // [2, 3]
 // [-1, -1]
 // [1, 0]
+
+//time complexity is O(n)
+//space comlexity is O(1) as no extra space is used
+
+//if I've applied the naive approach (traversing throughout the array using 2 nested loops) then time complexity will be O(n^2)
+//and space complexity will be same as above O(1)
