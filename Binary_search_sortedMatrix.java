@@ -54,3 +54,6 @@ public class Binary_search_sortedMatrix {
         else return binarySearch(matrix, rStart+1, cMid+1, columns-1, t) ;
     }
 }
+
+//Output :
+//[1, 0]
